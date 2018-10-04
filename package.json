@@ -1,0 +1,21 @@
+{
+  "name": "p2p-ckplayer",
+  "version": "0.1.0",
+  "description": "CKPlayer with hlsjs-p2p-engine built-in",
+  "main": "index.js",
+  "scripts": {
+    "publish": "npm publish",
+    "git-push": "git add . && git commit -m 'tag' && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdnbye/P2P-CKPlayer.git"
+  },
+  "author": "CDNBye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdnbye/P2P-CKPlayer/issues"
+  },
+  "homepage": "https://github.com/cdnbye/P2P-CKPlayer#readme"
+}
