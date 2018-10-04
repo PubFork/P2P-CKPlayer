@@ -1,16 +1,20 @@
 {
   "name": "p2p-ckplayer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CKPlayer with hlsjs-p2p-engine built-in",
   "main": "dist/ckplayer.js",
   "scripts": {
+    "build": "webpack",
     "publish": "npm publish",
-    "git-push": "git add . && git commit -m 'update readme' && git push",
+    "git-push": "git add . && git commit -m 'build' && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cdnbye/P2P-CKPlayer.git"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
   },
   "author": "CDNBye",
   "license": "MIT",

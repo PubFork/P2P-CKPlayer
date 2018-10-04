@@ -7,7 +7,7 @@
 ![image](figs/screen.jpg)
 
 ## 简介
-ckplayer,支持http协议下的flv,f4v,mp4,支持rtmp视频流和rtmp视频回放,
+[CKPlayer](http://www.ckplayer.com/),支持http协议下的flv,f4v,mp4,支持rtmp视频流和rtmp视频回放,
 支持m3u8格式,是你做视频直播,视频点播的理想播放器。</br>
 本项目属于非官方定制版，嵌入了P2P加速引擎CDNBye [hlsjs-p2p-engine](https://github.com/cdnbye/hlsjs-p2p-engine)，
 播放hls流支持P2P加速，API与CKPlayer保持一致，使用方法参考[quick-start.html](quick-start.html)。
@@ -18,7 +18,7 @@ ckplayer,支持http协议下的flv,f4v,mp4,支持rtmp视频流和rtmp视频回�
 <html>
 <body>
 <div id="video" style="width: 100%; height: 400px;max-width: 600px;"></div>
-<script type="text/javascript" src="ckplayer/ckplayer.js" charset="UTF-8"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p2p-ckplayer@latest/ckplayer/ckplayer.min.js" charset="UTF-8"></script>
 <script type="text/javascript">
     var videoObject = {
         container: '#video',//“#”代表容器的ID，“.”或“”代表容器的class
