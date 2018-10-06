@@ -3442,7 +3442,8 @@ function ckplayerConfig() {
 		embedHls: function(url, autoplay, config) {
 			var thisTemp = this;
             var hlsjsConfig = config || {};
-            hlsjsConfig.p2pConfig.tag = 'ckplayer';
+            if (!hlsjsConfig.p2pConfig) hlsjsConfig.p2pConfig = {};
+            if (!hlsjsConfig.p2pConfig.tag) hlsjsConfig.p2pConfig.tag = 'ckplayer';
 			if (Hls.isSupported()) {
 				var hls = new Hls(hlsjsConfig);
 				hls.loadSource(url);
