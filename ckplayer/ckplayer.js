@@ -70,7 +70,7 @@ function ckplayerConfig() {
 			more: [
                 {
                     name:'采用CDNBye P2P加速',
-                    clickEvent:'link->https://github.com/cdnbye/hlsjs-p2p-engine,_blank',
+                    clickEvent:'link->https://docs.cdnbye.com,_blank',
                     separatorBefore: true
                 }
 			]
@@ -3443,7 +3443,7 @@ function ckplayerConfig() {
 			var thisTemp = this;
             var hlsjsConfig = config || {};
             if (!hlsjsConfig.p2pConfig) hlsjsConfig.p2pConfig = {};
-            if (!hlsjsConfig.p2pConfig.tag) hlsjsConfig.p2pConfig.tag = 'ckplayer';
+            if (!hlsjsConfig.p2pConfig.tag) hlsjsConfig.p2pConfig.tag = 'p2p-ckplayer';
 			if (Hls.isSupported()) {
 				var hls = new Hls(hlsjsConfig);
 				hls.loadSource(url);

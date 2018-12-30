@@ -1,12 +1,12 @@
 {
   "name": "p2p-ckplayer",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "CKPlayer with hlsjs-p2p-engine built-in",
   "main": "dist/ckplayer.js",
   "scripts": {
     "build": "webpack",
     "publish": "npm publish",
-    "git-push": "git add . && git commit -m 'tag' && git push",
+    "git-push": "git add . && git commit -m 'change link' && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
